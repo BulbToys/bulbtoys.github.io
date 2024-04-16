@@ -1,6 +1,11 @@
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
+  border-style: solid;
+}
+
+code {
+  color: #32302f;
 }
 
 /* Post navigation links */
