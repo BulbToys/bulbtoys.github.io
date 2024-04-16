@@ -10,23 +10,49 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 
 ### This is a header
 
-#### Some T-SQL Code
+#### Diff test
 
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
+```diff
+= ctf_haarp
+= ctf_helltrain_event
+- ctf_minetest
++ workshop/ctf_minetest2.ugc3140160253
+= ctf_system_rc1
+= ctf_turbine
 ```
 
-#### Some PowerShell Code
+#### C++ test
 
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
+```cpp
+const char* BulbToys::Meow()
+{
+	return "mrrrp :3";
 }
 ```
+
+#### AHK test
+
+```autohotkey
+#MaxThreadsPerHotkey 3
+
+!F8::
+Toggle := !Toggle
+Loop
+{
+	If (!Toggle)
+		Break
+	SendInput {W down}
+	Sleep 300
+	SendInput {W up}
+	Sleep 5000
+	SendInput {S down}
+	Sleep 150
+	SendInput {S up}
+	Sleep 150
+	SendInput {2 down}
+	Sleep 150
+	SendInput {2 up}
+}
+Return
+```
+
