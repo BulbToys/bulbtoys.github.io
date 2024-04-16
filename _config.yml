@@ -21,8 +21,6 @@ youtube_username: "brokenphilip"
 #remote_theme: "BulbToys/minima"
 #skin: bulbtoys_dark
 theme: "minima"
-minima:
-  skin: "dark"
 
 rss: rss
 
