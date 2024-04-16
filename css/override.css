@@ -4,7 +4,7 @@ hr {
   border-style: solid;
 }
 
-code {
+code, pre {
   background-color: #32302f;
 }
 
