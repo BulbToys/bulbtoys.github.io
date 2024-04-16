@@ -18,8 +18,10 @@ youtube_username: "brokenphilip"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-remote_theme: "BulbToys/minima"
-skin: bulbtoys_dark
+#remote_theme: "BulbToys/minima"
+#skin: bulbtoys_dark
+theme: "minima"
+skin: dark
 
 rss: rss
 
