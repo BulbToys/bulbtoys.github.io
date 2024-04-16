@@ -1,6 +1,4 @@
 ---
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'bulbtoys' }}",
-  "minima/initialize";
+@import "bulbtoys"
